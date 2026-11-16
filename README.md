@@ -176,3 +176,7 @@ document back, so settings the panel doesn't know about are left untouched.
 This is an independent project, not affiliated with or endorsed by Hikvision. "Hikvision" is a trademark of its
 owner. Changing camera settings can make a camera unreachable (for example a wrong network address): keep a
 configuration backup, and use the panel at your own risk.
+
+## License
+
+[MIT](LICENSE) © 2026 Teo Basili

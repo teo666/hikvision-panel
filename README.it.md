@@ -176,3 +176,7 @@ il documento intero: le impostazioni che il pannello non conosce restano intatte
 Progetto indipendente, non affiliato né approvato da Hikvision. "Hikvision" è un marchio del rispettivo
 proprietario. Cambiare le impostazioni può rendere una camera irraggiungibile (per esempio con un indirizzo di rete
 sbagliato): tieni un backup della configurazione e usa il pannello a tuo rischio.
+
+## Licenza
+
+[MIT](LICENSE) © 2026 Teo Basili

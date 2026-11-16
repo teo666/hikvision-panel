@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "description": "Pannello di gestione per camere Hikvision via ISAPI. Zero dipendenze.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teo666/hikvision-panel.git"
+  },
   "type": "module",
   "packageManager": "pnpm@12.5.1",
   "engines": {
