@@ -1,0 +1,17 @@
+{
+  "name": "hikvision-panel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pannello di gestione per camere Hikvision via ISAPI. Zero dipendenze.",
+  "type": "module",
+  "packageManager": "pnpm@12.5.1",
+  "engines": {
+    "node": ">=21",
+    "pnpm": ">=10"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "fake-camera": "node tools/fake-camera.js"
+  }
+}

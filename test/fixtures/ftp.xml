@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTPNotificationList version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<FTPNotification version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>1</id>
+<enabled>true</enabled>
+<addressingFormatType>ipaddress</addressingFormatType>
+<ipAddress>0.0.0.0</ipAddress>
+<portNo>21</portNo>
+<userName></userName>
+<annoyftp>false</annoyftp>
+<uploadPicture>false</uploadPicture>
+<uploadPath>
+<pathDepth>0</pathDepth>
+<topDirNameRule>customize</topDirNameRule>
+<topDirName></topDirName>
+<subDirNameRule>customize</subDirNameRule>
+<subDirName></subDirName>
+</uploadPath>
+<picArchivingInterval min="0" max="30">0</picArchivingInterval>
+<picNameRuleType>default</picNameRuleType>
+<picNamePrefix min="1" max="32"></picNamePrefix>
+</FTPNotification>
+</FTPNotificationList>

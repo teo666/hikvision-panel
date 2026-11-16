@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NetworkInterface version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>1</id>
+<IPAddress version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<ipVersion>dual</ipVersion>
+<addressingType>dynamic</addressingType>
+<ipAddress>192.168.1.229</ipAddress>
+<subnetMask>255.255.255.0</subnetMask>
+<ipv6Address>fd00::1</ipv6Address>
+<bitMask>64</bitMask>
+<DefaultGateway>
+<ipAddress>192.168.1.1</ipAddress>
+<ipv6Address>::</ipv6Address>
+</DefaultGateway>
+<PrimaryDNS>
+<ipAddress>8.8.8.8</ipAddress>
+</PrimaryDNS>
+<SecondaryDNS>
+<ipAddress>8.8.4.4</ipAddress>
+</SecondaryDNS>
+<Ipv6Mode>
+<ipV6AddressingType>ra</ipV6AddressingType>
+<ipv6AddressList>
+<v6Address>
+<id>1</id>
+<type>ra</type>
+<address>fd00::1</address>
+<bitMask>64</bitMask>
+</v6Address>
+<v6Address>
+<id>2</id>
+<type>manual</type>
+<address>::</address>
+<bitMask>0</bitMask>
+</v6Address>
+</ipv6AddressList>
+</Ipv6Mode>
+</IPAddress>
+<Discovery version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<UPnP>
+<enabled>false</enabled>
+</UPnP>
+<Zeroconf>
+<enabled>true</enabled>
+</Zeroconf>
+</Discovery>
+<Link>
+<MACAddress>00:00:00:00:00:01</MACAddress>
+<autoNegotiation opt="true,false">true</autoNegotiation>
+<speed opt="10,100,">10</speed>
+<duplex opt="half,full">half</duplex>
+<MTU min="1280" max="1500">1500</MTU>
+</Link>
+</NetworkInterface>

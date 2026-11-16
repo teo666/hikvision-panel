@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HttpHostNotificationCap version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<hostNumber>1</hostNumber>
+<urlLen min="0" max="128"/>
+<protocolType opt="HTTP,HTTPS"/>
+<parameterFormatType opt="XML"/>
+<addressingFormatType opt="ipaddress,hostname"/>
+<ipAddress opt="ipv4,ipv6"/>
+<portNo min="1" max="65535"/>
+<userNameLen min="1" max="32"/>
+<passwordLen min="1" max="16"/>
+<httpAuthenticationMethod opt="none,base64"/>
+</HttpHostNotificationCap>

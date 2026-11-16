@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "panel-fake-camera",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "node tools/fake-camera.js & CAMERAS_FILE=/tmp/hikvision-panel-dev-cameras.json PORT=8090 node server.js; kill %1"],
+      "port": 8090
+    },
+    {
+      "name": "panel",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "port": 8080
+    }
+  ]
+}

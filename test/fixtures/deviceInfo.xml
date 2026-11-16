@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceInfo version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<deviceName>IP CAMERA</deviceName>
+<deviceID>00000000-0000-0000-0000-000000000000</deviceID>
+<deviceDescription>IPCamera</deviceDescription>
+<model>DS-2CD1043G2-LIU</model>
+<serialNumber>FAKE-SERIAL-0001</serialNumber>
+<macAddress>00:00:00:00:00:01</macAddress>
+<firmwareVersion>V5.8.42</firmwareVersion>
+<firmwareReleasedDate>build 260827</firmwareReleasedDate>
+<encoderVersion>V7.3</encoderVersion>
+<encoderReleasedDate>build 251125</encoderReleasedDate>
+<bootVersion>V1.3.4</bootVersion>
+<bootReleasedDate>100316</bootReleasedDate>
+<hardwareVersion>0x0</hardwareVersion>
+<deviceType>IPCamera</deviceType>
+<manufacturer>hikvision</manufacturer>
+</DeviceInfo>

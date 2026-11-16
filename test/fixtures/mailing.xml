@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailingList version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<mailing version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>1</id>
+<sender>
+<emailAddress></emailAddress>
+<name></name>
+<smtp>
+<enableAuthorization>false</enableAuthorization>
+<addressingFormatType>hostname</addressingFormatType>
+<hostName></hostName>
+<portNo>25</portNo>
+<accountName></accountName>
+<enableTLS>false</enableTLS>
+<startTLS>false</startTLS>
+</smtp>
+</sender>
+<receiverList>
+<receiver>
+<id>1</id>
+<name></name>
+<emailAddress></emailAddress>
+</receiver>
+<receiver>
+<id>2</id>
+<name></name>
+<emailAddress></emailAddress>
+</receiver>
+<receiver>
+<id>3</id>
+<name></name>
+<emailAddress></emailAddress>
+</receiver>
+</receiverList>
+<attachment>
+<snapshot>
+<enabled>false</enabled>
+<interval>2</interval>
+</snapshot>
+</attachment>
+</mailing>
+</mailingList>

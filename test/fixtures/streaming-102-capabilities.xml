@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StreamingChannel version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id opt="1,2">102</id>
+<channelName min="0" max="32">Camera 01</channelName>
+<enabled opt="true">true</enabled>
+<Transport>
+<maxPacketSize opt="1000">1000</maxPacketSize>
+<ControlProtocolList>
+<ControlProtocol>
+<streamingTransport opt="RTSP,HTTP">RTSP</streamingTransport>
+</ControlProtocol>
+</ControlProtocolList>
+<Unicast>
+<enabled opt="true">true</enabled>
+<rtpTransportType opt="RTP/TCP">RTP/TCP</rtpTransportType>
+</Unicast>
+<Security>
+<enabled opt="true">true</enabled>
+<certificateType opt="digest,digest/basic">digest</certificateType>
+<SecurityAlgorithm>
+<algorithmType opt="MD5,SHA256,MD5/SHA256"/>
+</SecurityAlgorithm>
+</Security>
+</Transport>
+<Video>
+<enabled opt="true">true</enabled>
+<videoInputChannelID opt="1">1</videoInputChannelID>
+<videoCodecType opt="H.264,H.265,MJPEG">H.264</videoCodecType>
+<videoScanType opt="progressive">progressive</videoScanType>
+<videoResolutionWidth opt="640,640,1280">640</videoResolutionWidth>
+<videoResolutionHeight opt="360,480,720">360</videoResolutionHeight>
+<videoQualityControlType opt="CBR,VBR">VBR</videoQualityControlType>
+<constantBitRate min="32" max="8192">1024</constantBitRate>
+<fixedQuality opt="1,20,40,60,80,100">60</fixedQuality>
+<vbrUpperCap min="32" max="8192">1024</vbrUpperCap>
+<vbrLowerCap>32</vbrLowerCap>
+<maxFrameRate opt="2500,2200,2000,1800,1600,1500,1200,1000,800,600,400,200,100,50,25,12,6">2000</maxFrameRate>
+<keyFrameInterval min="50" max="20000">2500</keyFrameInterval>
+<snapShotImageType opt="JPEG">JPEG</snapShotImageType>
+<H264Profile opt="Baseline,Main,High">Main</H264Profile>
+<GovLength min="1" max="400">50</GovLength>
+<smoothing min="1" max="100">50</smoothing>
+<H265Profile opt="Main">Main</H265Profile>
+</Video>
+<Audio>
+<enabled opt="true,false">true</enabled>
+<audioInputChannelID>1</audioInputChannelID>
+<audioCompressionType opt="G.722.1,G.711ulaw,G.711alaw,MP2L2,G.726,AAC,PCM">G.711ulaw</audioCompressionType>
+</Audio>
+<isSpportDynamicCapWithCondition>false</isSpportDynamicCapWithCondition>
+<isSupportSmartCodeWithoutReStart>true</isSupportSmartCodeWithoutReStart>
+<isSupportRefreshFrame>false</isSupportRefreshFrame>
+<isSupportRTCPCfg>true</isSupportRTCPCfg>
+</StreamingChannel>
